@@ -1,0 +1,144 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black !important;
+  color: white;
+  font-family: 'Exo 2', sans-serif, 'Lora', 'Poppins';
+}
+
+.color {
+  color: #23ff6e;
+}
+
+.texto2 {
+  margin-top: 50px;
+  font-size: 22px;
+  color: white;
+}
+
+.neon-header h1 {
+  font-size: 55px;
+  width: 800px;
+  font-weight: 600;
+  text-align: start;
+  line-height: 55px;
+  color: #23ff6e;
+  animation: neon 1s ease-in-out infinite alternate;
+}
+
+button {
+  text-transform: uppercase !important;
+  display: flex;
+  margin-top: 40px !important;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 38px;
+  border-radius: 16px;
+  border: 2px solid #23ff6e;
+  color: white;
+  background-color: transparent;
+  font-size: 16px;
+  letter-spacing: 1px;
+  transition: all 0.15s linear;
+}
+
+button:hover {
+  background-color: black;
+  border-color: #85FF64;
+  color: #85FF64;
+  transform: translateY(-5px) scale(1.05);
+}
+
+button:active {
+  background-color: transparent;
+  border-color: #85FF64;
+  color: #85FF64;
+  transform: translateY(5px) scale(0.95);
+}
+
+button:disabled {
+  background-color: rgba(255, 255, 255, 0.16);
+  color: #8E8E93;
+  border-color: #8E8E93;
+}
+
+@keyframes neon {
+  from {
+    text-shadow: 0 0 35px #85FF64,
+      0 0 400px #2BBF03,
+      0 0 550px #141ae2;
+  }
+}
+
+.section-2{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.section-2 h1{
+  margin-top: 50px;
+  color: white;
+  font-weight: 600;
+  text-align: center;
+  font-size: 48px;
+  line-height: 48px;
+}
+
+.card-1{
+  border: 3px solid #23ff6e;
+  width: 270px;
+  height: 270px;
+  margin: 20px;
+  box-shadow: 0 0 1em #23ff6e;
+}
+
+.card-1 img{
+  margin: 10px 0;
+}
+
+.card-1 .titulo{
+  color: #23ff6e;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.card-1 .descricao{
+  color: white;
+  font-size: 18px;
+  line-height: 24px;
+  margin: 10px;
+  text-align: justify;
+}
+
+.texto3{
+  background-color: #ffffff;
+  border-radius: 20px;
+}
+.texto3 img{
+  width: 100px;
+  margin: 20px 0;
+}
+
+.texto3 h3{
+  font-size: 24px;
+  color: #131E13;
+  line-height: 30px;
+  padding: 20px;
+  font-weight: 600;
+
+}
+
+.texto3 p{
+  color: #000000;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: start;
+  padding: 20px;
+  font-weight: 300;
+}

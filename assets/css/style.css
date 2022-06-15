@@ -75,13 +75,13 @@ button:disabled {
   }
 }
 
-.section-2{
+.section-2 {
   display: flex;
   flex-direction: column;
   text-align: center;
 }
 
-.section-2 h1{
+.section-2 h1 {
   margin-top: 50px;
   color: white;
   font-weight: 600;
@@ -90,7 +90,7 @@ button:disabled {
   line-height: 48px;
 }
 
-.card-1{
+.card-1 {
   border: 3px solid #23ff6e;
   width: 270px;
   height: 270px;
@@ -98,17 +98,17 @@ button:disabled {
   box-shadow: 0 0 1em #23ff6e;
 }
 
-.card-1 img{
+.card-1 img {
   margin: 10px 0;
 }
 
-.card-1 .titulo{
+.card-1 .titulo {
   color: #23ff6e;
   font-size: 24px;
   font-weight: 600;
 }
 
-.card-1 .descricao{
+.card-1 .descricao {
   color: white;
   font-size: 18px;
   line-height: 24px;
@@ -116,16 +116,17 @@ button:disabled {
   text-align: justify;
 }
 
-.texto3{
+.texto3 {
   background-color: #ffffff;
   border-radius: 20px;
 }
-.texto3 img{
+
+.texto3 img {
   width: 100px;
   margin: 20px 0;
 }
 
-.texto3 h3{
+.texto3 h3 {
   font-size: 24px;
   color: #131E13;
   line-height: 30px;
@@ -134,11 +135,19 @@ button:disabled {
 
 }
 
-.texto3 p{
+.texto3 p {
   color: #000000;
   font-size: 18px;
   line-height: 24px;
   text-align: start;
   padding: 20px;
   font-weight: 300;
+}
+
+.div {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid red;
+  background-color: white;
+  color: #131E13;
 }

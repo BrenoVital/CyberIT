@@ -30,6 +30,60 @@ body {
   animation: neon 1s ease-in-out infinite alternate;
 }
 
+.redes-sociais a {
+  text-decoration: none;
+  padding: 3px;
+}
+
+.redes-sociais svg {
+  color: #23ff6e;
+}
+
+.redes-sociais svg:hover {
+  color: #fff;
+}
+
+.container .card-1:hover, .transform:hover {
+  transform: scale(1.2);
+  transition: all 0.3s ease-in-out;
+}
+
+.container .card-1, .transform {
+  transition: all 0.3s ease-in-out;
+}
+
+.borderr img {
+  width: 400px !important;
+  margin-right: 50px;
+}
+
+.title h2 {
+  font-size: 48px;
+  color: #fff;
+  font-weight: 600;
+  text-align: center;
+  line-height: 48px;
+  size: 48px;
+}
+
+.descricao-sobre {
+  font-size: 18px;
+  color: #23ff6e;
+  font-weight: 400;
+  text-align: center;
+  line-height: 24px;
+  font-style: normal;
+  text-align: justify;
+}
+
+.borderr {
+  border-radius: 10px;
+  border: 3px solid #23ff6e;
+  box-shadow: 0 0 1em #23ff6e;
+  padding: 10px;
+  margin-top: 10px;
+}
+
 button {
   text-transform: uppercase !important;
   display: flex;
@@ -205,33 +259,70 @@ button:disabled {
   margin-top: 20px;
 }
 
+@media (max-width:1000px) {
+  .borderr .img {
+    display: none;
+  }
+}
+
 @media (max-width:991px) {
-  .margin{
+  .margin {
     margin: 10px auto !important;
   }
 }
 
 @media (max-width:845px) {
-  .margin{
+  .margin {
     margin: 10px auto;
   }
 
-  .neon-header h1{
+  .neon-header h1 {
     font-size: 45px;
     width: 100%;
   }
 }
 
 @media (max-width:766px) {
-  .section-2 h1, h2{
+  .section-2 h1, h2 {
     font-size: 38px;
   }
 
-  .section-2 h2{
+  .section-2 h2 {
     font-size: 38px;
   }
 
-  .card-1 .descricao2{
+  .card-1 .descricao2 {
     font-size: 28px;
   }
+}
+
+@media (max-width:500px) {
+  .redes-sociais {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .redes-sociais svg {
+    margin: 2px;
+  }
+}
+
+@media (max-width:400px) {
+  .footer h1 {
+    font-size: 12px;
+  }
+
+  .transform {
+    transform: scale(0.9);
+  }
+
+  .container .card-1:hover, .transform:hover {
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+  }
+
+  .container .card-1, .transform {
+    transition: all 0.3s ease-in-out;
+  }
+
 }

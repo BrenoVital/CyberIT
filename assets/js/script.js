@@ -36,3 +36,4 @@ function openInNewTab(url3) {
 btn3.addEventListener('click', () => {
   openInNewTab(url3)
 })
+

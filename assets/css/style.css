@@ -290,7 +290,7 @@ button:disabled {
   transition: 5s linear;
 }
 
-.init-hidden-off{
+.init-hidden-off {
   opacity: 1;
   transform: none;
 }
@@ -359,6 +359,10 @@ button:disabled {
 
   .container .card-1, .transform {
     transition: all 0.3s ease-in-out;
+  }
+
+  .mb-4 h1 {
+    font-size: 25px;
   }
 
 }

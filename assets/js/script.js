@@ -37,3 +37,18 @@ btn3.addEventListener('click', () => {
   openInNewTab(url3)
 })
 
+const observer = new IntersectionObserver(entries => {
+  console.log(entries)
+  Array.from(entries).forEach(entry => {
+    if (entry.intersectionRatio >= 1) {
+      entry.target.classList.add('init-hidden-off')
+    }
+  })
+}, {
+  threshold: [0, .5, 1]
+})
+
+Array.from(document.querySelectorAll('.init-hidden')).forEach(function (element) {
+  observer.observe(element)
+})
+

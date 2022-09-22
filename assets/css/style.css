@@ -10,6 +10,11 @@ body {
   font-family: 'Exo 2', sans-serif, 'Lora', 'Poppins';
 }
 
+.h100 {
+  margin-top: 20vh;
+  height: 50vh;
+}
+
 .color {
   color: #23ff6e;
 }
@@ -21,13 +26,33 @@ body {
 }
 
 .neon-header h1 {
-  font-size: 55px;
+  font-size: 70px;
   width: 800px;
   font-weight: 600;
   text-align: start;
   line-height: 55px;
   color: #23ff6e;
   animation: neon 1s ease-in-out infinite alternate;
+}
+
+.menu ul li a {
+  color: #23ff6e;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 400;
+  padding: 10px;
+  transition: 0.5s;
+  text-transform: uppercase;
+}
+
+.menu ul li a:hover {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 400;
+  padding: 10px;
+  transition: 0.5s;
+  text-transform: uppercase;
 }
 
 .redes-sociais a {
@@ -257,6 +282,17 @@ button:disabled {
   font-size: 18px;
   color: #23ff6e;
   margin-top: 20px;
+}
+
+.init-hidden {
+  opacity: 0;
+  transform: rotate3d(0, 0, 1, 100deg);
+  transition: 5s linear;
+}
+
+.init-hidden-off{
+  opacity: 1;
+  transform: none;
 }
 
 @media (max-width:1000px) {

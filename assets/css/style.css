@@ -10,6 +10,11 @@ body {
   font-family: 'Exo 2', sans-serif, 'Lora', 'Poppins';
 }
 
+header img{
+  width: 200px;
+  height: 200px;
+}
+
 form {
   margin: 0 auto;
   width: 70%;
@@ -372,6 +377,11 @@ form button:hover {
 }
 
 @media (max-width:1000px) {
+  header img{
+    width: 150px;
+    height: 150px;
+  }
+
   .borderr .img {
     display: none;
   }
@@ -407,6 +417,11 @@ form button:hover {
 }
 
 @media (max-width:766px) {
+  header img{
+    width: 100px;
+    height: 100px;
+  }
+  
   .section-2 h1, h2 {
     font-size: 38px;
   }

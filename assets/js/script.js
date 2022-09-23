@@ -52,3 +52,6 @@ Array.from(document.querySelectorAll('.init-hidden')).forEach(function (element)
   observer.observe(element)
 })
 
+AOS.init({
+  duration: 1200,
+})

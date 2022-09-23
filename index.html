@@ -77,7 +77,7 @@
           <div class="texto2">
             <h3>Tenha sua marca online, somos uma empresa especializada em serviços de tecnologia!</h3>
             <h3>Solicite agora mesmo um orçamento.</h3>
-            <button type="submit" id="btn" onclick="janela()">Faça seu orçamento</button>
+            <button class="button" type="submit" id="btn" onclick="janela()">Faça seu orçamento</button>
           </div>
         </div>
       </div>
@@ -95,8 +95,9 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore dignissimos nobis voluptatem id
               obcaecati fugiat!</p>
           </div>
+
           <div class="right item" data-aos="fade-left">
-            <form action="">
+            <form action=""><strong>Solicite nossos serviços agora mesmo.</strong>
               <div class="form-group">
                 <label for="name">Nome</label>
                 <input type="text" name="name" id="name" placeholder="Digite seu nome">
@@ -107,15 +108,18 @@
               </div>
               <div class="form-group">
                 <label for="Telefone">Telefone</label>
-                <input type="" name="email" id="email" placeholder="Digite seu email">
+                <input type="" name="email" id="email" placeholder="Digite seu telefone">
               </div>
               <div class="form-group">
                 <label for="email">Quais serviços você precisa?</label>
                 <select class="form-select" aria-label="Default select example">
                   <option selected>Abra a seleção de menu</option>
-                  <option value="1">exemplo 1</option>
-                  <option value="2">exemplo 2</option>
-                  <option value="3">exemplo 3</option>
+                  <option value="1">Suporte Técnico</option>
+                  <option value="2">Consultoria de TI</option>
+                  <option value="3">VOIP</option>
+                  <option value="3">Criação de sites LP</option>
+                  <option value="3">Design</option>
+                  <option value="3">Gestão de Redes Sociais</option>
                 </select>
               </div>
               <button type="submit">Solicitar serviços</button>
@@ -143,22 +147,26 @@
               </div>
             </div>
 
-            <div class="card-1 margin item" data-aos="fade">
+            <div class="card-1 margin item" data-aos="zoom-in">
               <div class="img">
                 <img src="./assets/images/performance.png" alt="performance" />
               </div>
-              <div class="titulo">Performance</div>
+              <div class="titulo">
+                <h1 data-aos="zoom-in">Performance</h1>
+              </div>
               <div class="descricao">
                 Design responsivo, UX e velocidade para que você tenha o
                 máximo de desempenho em suas campanhas de tráfego.
               </div>
             </div>
 
-            <div class="card-1 margin item" data-aos="fade-left">
+            <div class="card-1 margin item" data-aos="fade-right">
               <div class="img">
                 <img src="./assets/images/copy.png" alt="performance" />
               </div>
-              <div class="titulo">Copywriting</div>
+              <div class="titulo">
+                <h1 data-aos="fade-right">Copywriting</h1>
+              </div>
               <div class="descricao">
                 Pesquisamos o seu mercado, seu público e o seu produto para um
                 conteúdo persuasivo e de alta conversão.
@@ -166,7 +174,7 @@
             </div>
           </div>
           <div>
-            <button type="submit" id="btn2" class="m-auto">Faça seu orçamento</button>
+            <button type="submit" id="btn2" class="m-auto button">Faça seu orçamento</button>
           </div>
     </section>
     <!-- VERIFICAR SE DEVEMOS UTILIZAR MARGIN-BOTTOM NO BOTÃO EM VEZ DE (BR) -->
@@ -230,7 +238,7 @@
           </div>
         </div>
         <div>
-          <button id="btn3" class="m-auto">Faça seu orçamento</button>
+          <button id="btn3" class="m-auto button">Faça seu orçamento</button>
         </div>
       </div>
     </section>

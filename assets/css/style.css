@@ -12,11 +12,49 @@ body {
 
 form {
   margin: 0 auto;
-  width: 50%;
+  width: 70%;
+  height: 60vh;
   padding: 20px;
   background-color: #fff;
   color: #000;
   border-radius: 10px;
+}
+
+form strong {
+  font-size: 1.7rem;
+  font-weight: 600;
+  text-align: justify;
+}
+
+form label {
+  display: flex;
+  margin: 10px 0;
+}
+
+form input {
+  margin: auto;
+  width: 100%;
+  padding: 5px;
+  border: none;
+  border-bottom: 1px solid #000;
+  border-radius: 5px;
+}
+
+form button{
+  margin: 20px auto;
+  width: 100%;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  background-color: #000;
+  color: #fff;
+  font-weight: 600;
+}
+
+form button:hover {
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #000;
 }
 
 .flex {
@@ -40,6 +78,7 @@ form {
   margin-bottom: 20px;
   color: #fff;
 }
+
 
 .item .titulo h1 {
   font-size: 1.5rem;
@@ -147,7 +186,7 @@ form {
   margin-top: 10px;
 }
 
-button {
+.button {
   text-transform: uppercase !important;
   display: flex;
   margin-top: 40px !important;
@@ -155,7 +194,6 @@ button {
   justify-content: center;
   align-items: center;
   padding: 15px 38px;
-  border-radius: 16px;
   border: 2px solid #23ff6e;
   color: white;
   background-color: transparent;
@@ -164,21 +202,21 @@ button {
   transition: all 0.15s linear;
 }
 
-button:hover {
+.button:hover {
   background-color: black;
   border-color: #85FF64;
   color: #85FF64;
   transform: translateY(-5px) scale(1.05);
 }
 
-button:active {
+.button:active {
   background-color: transparent;
   border-color: #85FF64;
   color: #85FF64;
   transform: translateY(5px) scale(0.95);
 }
 
-button:disabled {
+.button:disabled {
   background-color: rgba(255, 255, 255, 0.16);
   color: #8E8E93;
   border-color: #8E8E93;
@@ -337,12 +375,24 @@ button:disabled {
   .borderr .img {
     display: none;
   }
+
+  .flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .right{
+    margin-top: 50px;
+  }
 }
 
 @media (max-width:991px) {
   .margin {
     margin: 10px auto !important;
   }
+
+  
 }
 
 @media (max-width:845px) {
@@ -379,6 +429,16 @@ button:disabled {
   .redes-sociais svg {
     margin: 2px;
   }
+
+  form{
+    width: 100%;
+    height: auto;
+  }
+
+  form strong{
+    font-size: 20px;
+  }
+
 }
 
 @media (max-width:400px) {

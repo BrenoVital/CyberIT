@@ -54,4 +54,4 @@ Array.from(document.querySelectorAll('.init-hidden')).forEach(function (element)
 
 AOS.init({
   duration: 1200,
-})
+});

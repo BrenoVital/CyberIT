@@ -107,7 +107,8 @@
               </div>
               <div class="form-group">
                 <label for="Telefone">Telefone</label>
-                <input type="" name="email" id="email" placeholder="Digite seu telefone">
+                <input minlength="11" maxlength="11" type="tel" name="email" id="email"
+                  placeholder="Digite seu telefone com DDD" required>
               </div>
               <div class="form-group">
                 <label for="email">Quais serviços você precisa?</label>
@@ -116,9 +117,9 @@
                   <option value="1">Suporte Técnico</option>
                   <option value="2">Consultoria de TI</option>
                   <option value="3">VOIP</option>
-                  <option value="3">Criação de sites LP</option>
-                  <option value="3">Design</option>
-                  <option value="3">Gestão de Redes Sociais</option>
+                  <option value="4">Criação de sites LP</option>
+                  <option value="5">Design</option>
+                  <option value="6">Gestão de Redes Sociais</option>
                 </select>
               </div>
               <button type="submit">Solicitar serviços</button>
@@ -215,23 +216,23 @@
             </h2>
           </div>
           <div class="card-group mb-4 mt-4">
-            <div class="card-1 ">
+            <div class="card-1 " data-aos="fade-right">
               <div class="img"><img src="./assets/images/pessoas.png" alt="pessoas" /></div>
-              <div class="titulo">Design</div>
+              <div class="titulo" data-aos="fade-right">Design</div>
               <div class="descricao2">Informações de produtores</div>
             </div>
 
-            <div class="card-1 margin">
+            <div class="card-1 margin" data-aos="zoom-in">
               <div class="img">
                 <img src="./assets/images/performance.png" alt="pessoas" />
               </div>
-              <div class="titulo">Performance</div>
+              <div class="titulo" data-aos="zoom-in">Performance</div>
               <div class="descricao2">Negócios Locais</div>
             </div>
 
-            <div class="card-1 margin">
+            <div class="card-1 margin" data-aos="fade-right">
               <div class="img"><img src="./assets/images/copy.png" alt="pessoas" /></div>
-              <div class="titulo">Copywriting</div>
+              <div class="titulo" data-aos="fade-right">Copywriting</div>
               <div class="descricao2">Profissionais liberais</div>
             </div>
           </div>
